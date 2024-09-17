@@ -1,34 +1,30 @@
-# SussyPayloads
-Some scripts for some RCE framework in some gacha game
-
-# Scripts
 * Animator
-    * Sets current avatar to some animation\pose, you can change it in lua. Animations can be found in `animations.cs`
+  * 将当前角色设置为某种动画/姿势，可以在Lua中更改。动画可以在 `animations.cs` 中找到。
 * Avatar Size
-    * Sets current avatar scale, you can change size of scale in lua. 
+  * 设置当前角色的缩放比例，可以在Lua中更改缩放大小。
 * Booba
-    * Changes size of uhm... character breasts.
+  * 更改角色的胸部大小。
 * HideUI
-    * Sets UI to hide
+  * 隐藏UI。
 * Eleminf
-    * Changes color (RGBA) of elemental infusion\blade trail. Works perfectly on swords, greatswords.
+  * 更改元素注入/刀刃轨迹的颜色（RGBA）。对剑、大剑效果很好。
 * Emotion
-    * Same as `Animator`, but with character emotions. Look for it in `emotions.cs`
+  * 与 `Animator` 类似，但用于角色情感。请在 `emotions.cs` 中查找。
 * NoFog
-    * Disable In-game Fog.
+  * 禁用游戏内的雾气。
 * Screen
-    * Spawns big clickable screen. You can define any URL in script, or use something like google.
+  * 生成一个大可点击的屏幕。你可以在脚本中定义任何URL，或者使用像Google这样的URL。
 * Uid
-    * Just changes your UID to defined text. Change it in script. Rich Text tags can be applied.
+  * 将你的UID更改为定义的文本。可以在脚本中更改。可以应用富文本标签。
 * UnlockFPS
-    * Unlocks current game FPS
+  * 解锁当前游戏的FPS。
 * texchanger
-    * Changes the texture on current avatar, you can change location to find png, it needs `.png` extension file (body, hair).
+  * 更改当前角色的纹理，可以更改PNG文件的位置，要求文件扩展名为 `.png`（身体、头发）。
 * moloader
-    * Load MO file. Need to unpack `mo.zip` and change location in `moFilePath` and `TextPath`.
+  * 加载MO文件。需要解压 `mo.zip` 并在 `moFilePath` 和 `TextPath` 中更改位置。
 * button
-    * Create a button.You can add any listener on click.
+  * 创建一个按钮。你可以在点击时添加任何监听器。
 * clone
-    * Clone current avatar with pose.
+  * 克隆当前角色及其姿势。
 * il2cppdump
-    * Gives you a dump.cs
+  * 给你一个 `dump.cs` 文件。
